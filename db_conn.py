@@ -18,3 +18,6 @@ def hana_conn():
     conn = dbapi.connect(address, port, user, password)
     
     return conn
+
+
+

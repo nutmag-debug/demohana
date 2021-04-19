@@ -1,0 +1,6 @@
+applications:
+- name: customerapp
+  host: customerapp
+  path: .
+  memory: 128M
+  command: python server.py

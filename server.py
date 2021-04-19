@@ -2,7 +2,7 @@ import os
 # from datetime import date
 from flask import Flask, render_template
 app = Flask(__name__)
-from customer import operations as op
+from customerapp import operations as op
 #from db_conn import hana_conn
 
 # st_date = print(date.today())
@@ -39,6 +39,6 @@ def delete():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host = '0.0.0.0',port =port)
 
         
