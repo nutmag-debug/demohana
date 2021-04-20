@@ -9,7 +9,7 @@ import pandas as pd
 from db_conn import hana_conn
 #from datetime import date
 
-# st_date = date.today()
+# st_date = date.today() 
 # ed_date = date.today()
     
 class operations:
