@@ -23,7 +23,7 @@ class operations:
         self.START_DATE = 'current_date'
         self.END_DATE = 'current_date'
         self.STATUS = STATUS
-        self.conn=hana_conn()
+        self.conn=hana_conn() 
         
     
     def read(self):

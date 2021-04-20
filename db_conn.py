@@ -2,7 +2,7 @@
 """
 Created on Wed Mar 24 16:31:41 2021
 
-@author: Hitesh
+@author: Hitesh 
 """
 
 from hdbcli import dbapi

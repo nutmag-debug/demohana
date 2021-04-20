@@ -3,4 +3,4 @@ applications:
   host: customerapp
   path: .
   memory: 128M
-  command: python server.py
+  command: python server.py 
